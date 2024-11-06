@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[yes  ] Google Font OR Uploaded Font
+[ yes ] font-size OR font-style 
+[ yes ] Five CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
+[ yes ] Feature 1 - Include a Static Background Image
 [ no ] Feature 2 - Use a unique border-radius
 [ no ] Feature 3 - Use width and margin CSS Properties
 [ no ] Feature 4 - Include at least one more additional HTML page
@@ -14,17 +14,79 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 4 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-image: url("https://www.copysvg.com/wp-content/uploads/2022/08/1_NsEWep_G7PSa8mc9GJPoBw.png");
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .s {
+        border-style: solid;
+      }
+      .main {
+        background-color: white;
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+        opacity: 0.7;
+      }
+      .second {
+        background-color: white;
 
-  </style>
-</head>
-<body>
+        opacity: 0.7;
+      }
+      .one {
+        font-family: "fantasy";
+      }
+      #yayaya {
+        color: rgb(246, 239, 189);
+        font-family: supers;
+      }
+      .emoji {
+        background-color: rgb(243, 198, 35);
+      }
+      @font-face {
+        font-family: supers;
+        src: url(https://cdn.glitch.global/8d1cc4f4-3d7d-4de2-91ca-5b543cc70969/Super%20Shiny.ttf?v=1730741342625);
+      }
+    </style>
+    <a href="https://www.wired.com/story/guide-emoji/">Read about emojis</a>
+    ,
+  </head>
+  <body>
+    <div class="main" id="two">
+      <h1 id="yayaya" class="emoji">evolution of emojis</h1>
 
- 
-
-</body>
+      <p>Here are the first few emojis</p>
+    </div>
+    <img
+      class="s"
+      src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2020/04/Original-emojis.jpg"
+      width="500"
+    />
+    <p class="second" id="one">
+      Evolution of Emoji 1999 Emoji are born! The original set includes icons
+      for the weather, traffic, technology, and time. 2010 Unicode officially
+      adopts emoji, adding hundreds more—like cat faces emoting happiness,
+      anger, and tears. 2015 Emoji get a diversity update with five new skin
+      tones and a set of same-sex couples. 👬 2016 Updates give rise to the
+      single dad, pride flag, and weightlifting woman emoji. 2017 New emoji
+      proposals suggest characters to convey information across language and
+      culture, like a mosquito to represent illnesses like malaria and Zika.
+    </p>
+    <img
+      class="s"
+      src="https://cms.novafm.com.au/wp-content/uploads/2019/11/screen_shot_2018-07-17_at_1.32.08_pm-768x439.png"
+      width="400"
+    />
+    2018 emoji
+    <img
+      class="s"
+      src="https://metricool.com/wp-content/uploads/apple-ios16.4-emoji-feature.jpg"
+      width="300"
+    />
+    2023 emoji
+  </body>
 </html>
